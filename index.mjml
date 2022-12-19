@@ -1,0 +1,106 @@
+<mjml owa="desktop" lang="en">
+    <mj-head>
+        <mj-title>everlane clone email</mj-title>
+        <mj-font name="https://fonts.googleapis.com/css2?family=Prompt" href="Prompt" />
+        <mj-breakpoint width="315px"/>
+        <mj-attributes>
+            <mj-all padding="0px" />
+            <mj-image href="#" />
+            <mj-text font-size="16px" line-height="26px" color="#808284" font-family="'Prompt', Arial, sans-serif"/>
+        </mj-attributes>
+        <mj-style>
+            p {
+                Margin: 0px !important;
+            }
+            h1 {
+                Margin: 0px !important;
+            }
+            
+        </mj-style>
+        <mj-style>
+            @media (max-width:320px) {
+                .footer-text{
+                    font-size: 10px !important;
+                }
+            }
+            @media (max-width:550px) {
+                .footer-text span{
+                    display:none;
+                }
+                .footer-text br {
+                    display: block !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#fff">
+        <!--Logo-->
+        <mj-section padding="40px 0">
+            <mj-column>
+                <mj-image width="189px" src="https://everlane-2.imgix.net/i/e1fb8175_463f.jpg?dpr=2&q=65&w=189"/>
+            </mj-column>
+        </mj-section>
+        <!--Divider-->
+        <mj-section>
+            <mj-column>
+                <mj-divider border-color="#dfe0e1" border-width="1px" />
+            </mj-column>
+        </mj-section>
+        <!--Text-->
+        <mj-section padding="25px 0 35px 0">
+            <mj-column>
+                <mj-text align="center" padding-bottom="15px">
+                    <h1 style="font-weight: normal;font-size:26px;line-height:36px;font-family:'Times New Roman', Georgia, serif;color:#4c4c4b;">You have great taste</h1>
+                </mj-text>
+                <mj-text align="center">
+                    <p>Then again—we might be bisased.<br>See what's waiting for you in your cart.</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Image-->
+        <mj-section>
+            <mj-column>
+                <mj-image src="https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_auto,f_auto,h_630,q_auto,w_630/v1/i/1f806bfa_2c2d.jpg" width="315px" />
+            </mj-column>
+        </mj-section>
+        <!--Price-->
+        <mj-section padding-top="20px">
+            <mj-group width="315px">
+                <mj-column>
+                    <mj-text color="#4c4c4b">
+                        <p>The Air Crew Tee</p>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text align="right" color="#4c4c4b">
+                        <p>$24</p>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!--Product Description-->
+        <mj-section padding-top="20px">
+            <mj-column width="315px">
+                <mj-text>
+                    <p>The Air Crew Tee is a cotton slub tee with a subtly textured look and a weightless feel. We made it in lightweight 3.7 oz cotton fabric, using a finer gauge of yarn than our Cotton Crew, woven loosely in an uneven slub texture that lets body heat out and cool breezes in.</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Button-->
+        <mj-section padding-top="10px">
+            <mj-column>
+                <mj-button href="#" text-transform="uppercase" font-family="'Prompt', Arial, sans-serif" line-height="12px" font-size="12px" background-color="#444" height="50px"  width="315px" inner-padding="0" border-radius="0">
+                    Take another look
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <!--Footer-->
+        <mj-section padding="40px 0 36px 0">
+            <mj-column>
+                <mj-text color="#9a9c9f" font-size="11.5px" line-height="23px" padding="0 16%" align="center">
+                    <p class="footer-text">Everlane SF / LA / NY © 2020 Everlane, Inc. All Rights Reserved.<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><br style="display:none">2170 Folsom St., San Francisco, CA 94110<br><a href="#" style="letter-spacing:0.23px;text-decoration:none; color:inherit">Visit Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" style="letter-spacing:0.23px;text-decoration:none; color:inherit">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" style="letter-spacing:0.23px;text-decoration:none; color:inherit">Terms of Service</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" style="letter-spacing:0.23px;text-decoration:none; color:inherit">Unsubscribe</a></p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
